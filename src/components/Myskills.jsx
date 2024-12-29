@@ -1,4 +1,11 @@
 import React from 'react'
+import htmlLogo from "./src/assets/css-3.svg"
+import cssLogo from "./src/assets/css-3.svg"
+import jslogo from "./src/assets/javascript-1.svg"
+import tailwindlogo from "./src/assets/react.svg"
+import djangoLogo from "./src/assets/django.svg"
+import pythonlogo from "./src/assets/python-4.svg"
+import mysqlLogo from "./src/assets/mysql-logo-svgrepo-com.svg"
 
 const Myskills = () => {
   return (
@@ -9,33 +16,33 @@ const Myskills = () => {
         </div>
         <div className='flex items-center justify-evenly w-full flex-wrap gap-5'>
           <div className='bg-slate-300 px-2 pb-2 rounded-lg hover:shadow-lg transform transition-transform duration-0 hover:scale-105'>
-            <img className="py-2" src="./src/assets/html-1.svg" alt="" />
+            <img className="py-2" src={htmlLogo} alt="" />
           </div>
           {/*- second sections-*/}
           
             <div className='bg-slate-300 px-2 pb-2 rounded-lg hover:shadow-lg transform transition-transform duration-0 hover:scale-105'>
-              <img src="./src/assets/css-3.svg" className='py-2' alt="" />
+              <img src={cssLogo} className='py-2' alt="" />
             </div>
             {/*- 3rd sections-*/}
             <div className='bg-slate-300  px-2 pb-2 rounded-lg hover:shadow-lg transform transition-transform duration-0 hover:scale-105'>
-              <img src="./src/assets/javascript-1.svg" className='py-2' alt="" />
+              <img src={jslogo} className='py-2' alt="" />
             </div>
             {/*- 4th sections-*/}
             <div className='bg-slate-300  px-2 pb-2 rounded-lg hover:shadow-lg transform transition-transform duration-0 hover:scale-105'>
-              <img className='py-2' src="./src/assets/react.svg" alt="" />
+              <img className='py-2' src={tailwindlogo} alt="" />
             </div>
             {/*- 5th sections-*/}
 
             <div className='bg-slate-300  px-2 pb-2 rounded-lg hover:shadow-lg transform transition-transform duration-0 hover:scale-105'>
-              <img className='py-2' src="./src/assets/django.svg" alt="" />
+              <img className='py-2' src={djangoLogo} alt="" />
             </div>
             {/*- 6th sections-*/}
             <div className='bg-slate-300  px-2 pb-2 rounded-lg hover:shadow-lg transform transition-transform duration-0 hover:scale-105'>
-              <img className='py-2' src="./src/assets/python-4.svg" alt="" />
+              <img className='py-2' src={pythonlogo} alt="" />
             </div>
              {/*- 7th sections-*/}
              <div className='bg-slate-300  px-2 pb-2 rounded-lg hover:shadow-lg transform transition-transform duration-0 hover:scale-105'>
-              <img className='py-2' src="./src/assets/mysql-logo-svgrepo-com.svg" alt="" />
+              <img className='py-2' src={mysqlLogo} alt="" />
             </div>
             
           </div>
