@@ -1,5 +1,5 @@
 import React from 'react'
-import htmlLogo from "./src/assets/css-3.svg"
+import htmlLogo from "./src/assets/html-1.svg"
 import cssLogo from "./src/assets/css-3.svg"
 import jslogo from "./src/assets/javascript-1.svg"
 import tailwindlogo from "./src/assets/react.svg"
