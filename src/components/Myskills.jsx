@@ -1,11 +1,11 @@
 import React from 'react'
 import htmlLogo from "../assets/html-1.svg"
-import cssLogo from "../src/assets/css-3.svg"
-import jslogo from "../src/assets/javascript-1.svg"
-import tailwindlogo from "../src/assets/react.svg"
-import djangoLogo from "../src/assets/django.svg"
-import pythonlogo from "../src/assets/python-4.svg"
-import mysqlLogo from "../src/assets/mysql-logo-svgrepo-com.svg"
+import cssLogo from "../assets/css-3.svg"
+import jslogo from "../assets/javascript-1.svg"
+import tailwindlogo from "../assets/react.svg"
+import djangoLogo from "../assets/django.svg"
+import pythonlogo from "../assets/python-4.svg"
+import mysqlLogo from "../assets/mysql-logo-svgrepo-com.svg"
 
 const Myskills = () => {
   return (
