@@ -5,11 +5,11 @@ import resumeURL from "../assets/Vinayak.pdf"
 
 const Hero = () => {
   return (
-    <div className='bg-black text-white text-center py-16 sm:py-5 sm:h-screen' id='#home'>
+    <div className='bg-black text-white text-center py-16 md:py-5 sm:h-screen' id='#home'>
       <img className='mx-auto mb-8 w-48 rounded-full object-cover transform transition-transform duration-300 hover:scale-105' src={HeroImages} alt="" />
       <h1 className='text-4xl font-bold'>
         Im {""}
-        <span className='text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500 inline-block my-3'>Vinayak N V</span>
+        <span className='text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500 inline-block my-3 font-Barlow font-extrabold md:text-4xl'>Vinayak N V</span>
       </h1>
       <div className='flex justify-center'>
         <motion.h2

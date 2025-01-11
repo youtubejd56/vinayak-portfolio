@@ -5,11 +5,11 @@ import { FaFacebook, FaInstagram, FaLinkedin, FaYoutube, FaGithub } from 'react-
 const footer = () => {
   return (
     <footer className='bg-black text-white  py-8'>
-        <div className='container mx-auto px-8 md:px-16 lg:px-24'>
+        <div className='mx-auto px-8 md:px-16 lg:px-24'>
             <div className='flex flex-col md:flex-row md:space-x-12 items-center mb-4'>
                 <div className='flex-1 md-4 md:mb-0 '>
                <h3 className='text-2xl font-bold mb-2 font-lobster'>Jd mega creations</h3>
-               <p className='text-gray-400'>Full-Stack Developer based in the Html and css tailwind  Specializing in web and graphic Design Ethical hacking</p>
+               <p className='text-gray-400 py-4 md:py-1'>Full-Stack Developer based in the Html and css tailwind  Specializing in web and graphic Design Ethical hacking</p>
             </div>
             <div className='flex-1 w-full'> 
                 <form className='flex items-center justify-center'>
@@ -21,19 +21,19 @@ const footer = () => {
 
               <div className='border-t border-gray-600 pt-4 flex-col md:flex-row justify-between items-center'>
                 <p className='text-gray-400 flex justify-center md:justify-start'>
-                    &copy; {new Date().getFullYear}2024 Your Website. All right reserved
+                    &copy; {new Date().getFullYear}2024 Jd. All right reserved
                 </p>
                 <div className='flex justify-center space-x-4 my-4 md:my-0'>
                     <a href="#" className='text-gray-400 hover:text-white'>
                        <FaFacebook />
                     </a>
-                    <a href=""className='text-gray-400 hover:text-white' >
+                    <a href="https://www.instagram.com/youtube_jd_/"className='text-gray-400 hover:text-white' >
                        <FaInstagram />
                     </a>
-                    <a href=""className='text-gray-400 hover:text-white'>
+                    <a href="https://www.linkedin.com/in/ct-vinayak-4271092ba"className='text-gray-400 hover:text-white'>
                        <FaLinkedin />
                      </a>
-                     <a href='youtube.com/channel/UCVNzlfNFVyuGdEO3r-O_4uQ'className='text-gray-400 hover:text-white'>
+                     <a href='https://www.youtube.com/channel/UCVNzlfNFVyuGdEO3r-O_4uQ'className='text-gray-400 hover:text-white'>
                        <FaYoutube />
                     </a>
                      <a href="https://github.com/youtubejd56?tab=repositories"className='text-gray-400 hover:text-white'>

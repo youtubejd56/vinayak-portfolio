@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {
       fontFamily:{
-      lobster: ["Lobster", "serif"]
+      lobster: ["Lobster", "serif"],
+      Barlow: ["Barlow Condensed", "serif"]
       }
     },
   },
