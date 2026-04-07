@@ -21,21 +21,12 @@ const Footer = ({ onOpenPrivacy, onOpenTerms }) => {
             ))}
 
             <div className='container mx-auto px-8 md:px-16 lg:px-24 relative z-20'>
-                <div className='flex flex-col md:flex-row md:space-x-12 items-center mb-12 py-10 bg-white/[0.03] backdrop-blur-[40px] p-10 rounded-[3rem] border border-white/10'>
-                    <div className='flex-1 mb-8 md:mb-0'>
+                <div className='flex flex-col items-center text-center mb-12 py-10 bg-white/[0.03] backdrop-blur-[40px] p-10 rounded-[3rem] border border-white/10'>
+                    <div className='max-w-2xl'>
                         <h3 className='text-3xl font-black mb-4 font-lobster cursor-pointer text-white tracking-tight'>Jd mega creations</h3>
-                        <p className='text-gray-400 font-Barlow text-lg leading-relaxed max-w-md'>
+                        <p className='text-gray-400 font-Barlow text-lg leading-relaxed'>
                             Full-Stack Developer Specializing in Web & Graphic Design and Ethical Hacking. Let's create something extraordinary.
                         </p>
-                    </div>
-                    <div className='flex-1 w-full'>
-                        <div className='flex flex-col space-y-4'>
-                            <p className="text-[10px] font-black uppercase text-gray-500 tracking-[0.3em] mb-2">Stay Connected</p>
-                            <form className='flex items-center gap-2'>
-                                <input type="email" placeholder='Enter Email' className='flex-1 px-6 py-3 rounded-2xl bg-white/[0.05] border border-white/10 focus:outline-none focus:border-green-400 text-sm transition-all' />
-                                <button type='submit' className='bg-white text-black px-8 py-3 rounded-2xl font-black uppercase text-[10px] tracking-widest hover:bg-green-400 transition-colors shadow-xl'>Subscribe</button>
-                            </form>
-                        </div>
                     </div>
                 </div>
 
