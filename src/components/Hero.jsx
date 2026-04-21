@@ -1,7 +1,7 @@
 import React from 'react'
 import HeroImages from '../assets/hero-images.png'
 import { motion } from "framer-motion"
-import resumeURL from "../assets/Vinayak.pdf.pdf"
+import resumeURL from "../assets/Vinayak.pdf"
 
 const Hero = () => {
   return (
@@ -24,28 +24,28 @@ const Hero = () => {
       {/* Multi-Layered Snow Mix */}
       {[...Array(12)].map((_, i) => (
         <div key={`s1-${i}`} className="snowflake" style={{
-            left: `${Math.random() * 100}%`,
-            animationDelay: `${Math.random() * 10}s`,
-            animationDuration: `${Math.random() * 5 + 5}s`,
-            opacity: Math.random() * 0.5
-          }}></div>
+          left: `${Math.random() * 100}%`,
+          animationDelay: `${Math.random() * 10}s`,
+          animationDuration: `${Math.random() * 5 + 5}s`,
+          opacity: Math.random() * 0.5
+        }}></div>
       ))}
       {[...Array(8)].map((_, i) => (
         <div key={`s2-${i}`} className="snowflake snowflake-slow" style={{
-            left: `${Math.random() * 100}%`,
-            animationDelay: `${Math.random() * 12}s`,
-            animationDuration: `${Math.random() * 8 + 10}s`,
-            opacity: Math.random() * 0.3
-          }}></div>
+          left: `${Math.random() * 100}%`,
+          animationDelay: `${Math.random() * 12}s`,
+          animationDuration: `${Math.random() * 8 + 10}s`,
+          opacity: Math.random() * 0.3
+        }}></div>
       ))}
-      
+
       {/* Rain Drops */}
       {[...Array(15)].map((_, i) => (
-        <div 
-          key={i} 
-          className="rain-drop" 
-          style={{ 
-            left: `${Math.random() * 100}%`, 
+        <div
+          key={i}
+          className="rain-drop"
+          style={{
+            left: `${Math.random() * 100}%`,
             animationDelay: `${Math.random() * 5}s`,
             animationDuration: `${Math.random() * 1.5 + 1}s`,
             opacity: Math.random() * 0.4
