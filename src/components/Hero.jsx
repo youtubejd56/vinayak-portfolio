@@ -1,7 +1,7 @@
 import React from 'react'
 import HeroImages from '../assets/hero-images.png'
 import { motion } from "framer-motion"
-import resumeURL from "../assets/Vinayak.pdf"
+import resumeURL from "../assets/Vinayak.pdf.pdf"
 
 const Hero = () => {
   return (
